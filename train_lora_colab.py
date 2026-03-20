@@ -468,5 +468,5 @@ if __name__ == "__main__":
         test()
     else:
         print("Type in correct method:")
-        print("  python train.py --train  # 训练")
-        print("  python train.py --test   # 测试")
+        print("  python train.py --train  # Train")
+        print("  python train.py --test   # Test")
