@@ -1,0 +1,13 @@
+{
+  "base_model_name_or_path": "runwayml/stable-diffusion-v1-5",
+  "revision": null,
+  "rank": 8,
+  "alpha": 16,
+  "dropout": 0.1,
+  "target_modules": [
+    "to_q",
+    "to_k",
+    "to_v",
+    "to_out.0"
+  ]
+}
