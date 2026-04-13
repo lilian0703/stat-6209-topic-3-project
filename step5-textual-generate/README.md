@@ -18,28 +18,25 @@ This module does **not** perform LoRA fine-tuning or VLM prompt generation — t
 
 ```
 step5-textual-generate/
-├── input_stickers/               # Sticker images from upstream modules
-│   ├── flat/                     # Flat sticker style
-│   ├── cartoon/                  # Cartoon style
-│   └── watercolor/               # Watercolor style
 ├── output_final/                 # Final stickers with text overlay
 │   ├── flat/                     # (auto-created)
 │   ├── cartoon/                  # (auto-created)
 │   └── watercolor/               # (auto-created)
-├── text_captions.json            # Caption mapping (file_name → caption)
+├── text_captions.json            # Caption mapping (animal_N → caption)
 ├── final_sticker_pipeline.ipynb  # Main processing notebook
+├── run_vlm_test.py              # VLM caption generation test script
 └── README.md
+
+Input images are read from `../sticker_results/{flat,cartoon,watercolor}/` (auto-detected).
 ```
 
 ## Quick Start
 
-1. **Place sticker images** into `input_stickers/<style>/`  
-   - Supported formats: `.png`, `.jpg`, `.jpeg`, `.webp`
-   - Images will be resized to 512×512 automatically
+1. Ensure `sticker_results/{flat,cartoon,watercolor}/` exists in the project root (auto-detected)
 2. **(Optional)** Edit `text_captions.json` to customize captions  
    - If a file has no matching caption, a default is auto-generated from the filename
-3. **Run** `final_sticker_pipeline.ipynb` top to bottom
-4. **Find results** in `output_final/<style>/`
+3. **Run** `final_sticker_pipeline.ipynb` top to bottom (Run All)
+4. **Find results** in `output_final/<style>/` (37 images × 3 styles = 111 total)
 
 ## Caption Rules
 
@@ -78,9 +75,14 @@ step5-textual-generate/
 | 6 | Sample Output Display | Show a grid of processed results |
 | 7 | Summary | Print per-style counts and output path |
 
+## VLM Smart Caption (Optional)
+
+The notebook includes an optional VLM-based caption generator that uses GPT-4o-mini (via POE API) to automatically generate captions by analyzing sticker images. Set `USE_VLM = True` and provide an API key to enable. Disabled by default.
+
 ## Dependencies
 
 - Python 3.8+
 - Pillow (`pip install Pillow`)
+- requests (only if VLM enabled)
 
 No GPU required. No additional ML dependencies.
