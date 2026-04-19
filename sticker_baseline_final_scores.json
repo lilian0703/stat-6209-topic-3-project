@@ -1,0 +1,372 @@
+[
+    {
+        "file_id": "animal_1.png",
+        "metrics": {
+            "content_score": 9.93,
+            "style_score": 1.0,
+            "quality_score": 9.33,
+            "sticker_average_score": 6.3,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_10.png",
+        "metrics": {
+            "content_score": 9.43,
+            "style_score": 1.0,
+            "quality_score": 5.5,
+            "sticker_average_score": 5.67,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_11.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 1.0,
+            "quality_score": 7.17,
+            "sticker_average_score": 5.87,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_12.png",
+        "metrics": {
+            "content_score": 9.6,
+            "style_score": 4.17,
+            "quality_score": 8.93,
+            "sticker_average_score": 7.36,
+            "status": "PASS"
+        }
+    },
+    {
+        "file_id": "animal_13.png",
+        "metrics": {
+            "content_score": 9.67,
+            "style_score": 1.0,
+            "quality_score": 8.0,
+            "sticker_average_score": 6.04,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_14.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 5.33,
+            "quality_score": 8.0,
+            "sticker_average_score": 7.68,
+            "status": "PASS"
+        }
+    },
+    {
+        "file_id": "animal_15.png",
+        "metrics": {
+            "content_score": 9.77,
+            "style_score": 1.0,
+            "quality_score": 7.0,
+            "sticker_average_score": 5.99,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_16.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 1.0,
+            "quality_score": 6.17,
+            "sticker_average_score": 5.77,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_17.png",
+        "metrics": {
+            "content_score": 9.6,
+            "style_score": 1.0,
+            "quality_score": 5.83,
+            "sticker_average_score": 5.78,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_18.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 1.0,
+            "quality_score": 7.33,
+            "sticker_average_score": 5.88,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_19.png",
+        "metrics": {
+            "content_score": 8.73,
+            "style_score": 1.0,
+            "quality_score": 8.5,
+            "sticker_average_score": 5.62,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_2.png",
+        "metrics": {
+            "content_score": 8.33,
+            "style_score": 1.0,
+            "quality_score": 7.67,
+            "sticker_average_score": 5.33,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_20.png",
+        "metrics": {
+            "content_score": 9.33,
+            "style_score": 1.0,
+            "quality_score": 8.33,
+            "sticker_average_score": 5.9,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_21.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 1.0,
+            "quality_score": 7.17,
+            "sticker_average_score": 5.87,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_22.png",
+        "metrics": {
+            "content_score": 8.0,
+            "style_score": 1.0,
+            "quality_score": 8.67,
+            "sticker_average_score": 5.27,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_23.png",
+        "metrics": {
+            "content_score": 1.0,
+            "style_score": 1.0,
+            "quality_score": 1.67,
+            "sticker_average_score": 1.07,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_24.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 1.0,
+            "quality_score": 7.17,
+            "sticker_average_score": 5.87,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_25.png",
+        "metrics": {
+            "content_score": 9.33,
+            "style_score": 1.0,
+            "quality_score": 7.5,
+            "sticker_average_score": 5.82,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_26.png",
+        "metrics": {
+            "content_score": 9.0,
+            "style_score": 4.67,
+            "quality_score": 7.67,
+            "sticker_average_score": 7.14,
+            "status": "PASS"
+        }
+    },
+    {
+        "file_id": "animal_27.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 3.83,
+            "quality_score": 7.83,
+            "sticker_average_score": 7.07,
+            "status": "PASS"
+        }
+    },
+    {
+        "file_id": "animal_28.png",
+        "metrics": {
+            "content_score": 9.67,
+            "style_score": 2.67,
+            "quality_score": 9.77,
+            "sticker_average_score": 6.88,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_29.png",
+        "metrics": {
+            "content_score": 9.77,
+            "style_score": 1.0,
+            "quality_score": 8.0,
+            "sticker_average_score": 6.08,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_3.png",
+        "metrics": {
+            "content_score": 8.67,
+            "style_score": 1.0,
+            "quality_score": 8.27,
+            "sticker_average_score": 5.56,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_30.png",
+        "metrics": {
+            "content_score": 9.77,
+            "style_score": 1.0,
+            "quality_score": 7.5,
+            "sticker_average_score": 6.04,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_31.png",
+        "metrics": {
+            "content_score": 7.5,
+            "style_score": 1.0,
+            "quality_score": 4.0,
+            "sticker_average_score": 4.55,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_32.png",
+        "metrics": {
+            "content_score": 8.67,
+            "style_score": 1.0,
+            "quality_score": 7.0,
+            "sticker_average_score": 5.44,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_33.png",
+        "metrics": {
+            "content_score": 9.77,
+            "style_score": 1.0,
+            "quality_score": 9.43,
+            "sticker_average_score": 6.23,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_34.png",
+        "metrics": {
+            "content_score": 9.77,
+            "style_score": 1.0,
+            "quality_score": 4.67,
+            "sticker_average_score": 5.75,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_35.png",
+        "metrics": {
+            "content_score": 9.5,
+            "style_score": 1.0,
+            "quality_score": 7.5,
+            "sticker_average_score": 5.9,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_36.png",
+        "metrics": {
+            "content_score": 7.5,
+            "style_score": 1.0,
+            "quality_score": 3.33,
+            "sticker_average_score": 4.48,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_37.png",
+        "metrics": {
+            "content_score": 9.33,
+            "style_score": 1.0,
+            "quality_score": 7.83,
+            "sticker_average_score": 5.85,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_4.png",
+        "metrics": {
+            "content_score": 9.17,
+            "style_score": 1.0,
+            "quality_score": 6.5,
+            "sticker_average_score": 5.64,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_5.png",
+        "metrics": {
+            "content_score": 9.6,
+            "style_score": 1.0,
+            "quality_score": 8.77,
+            "sticker_average_score": 6.08,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_6.png",
+        "metrics": {
+            "content_score": 9.1,
+            "style_score": 4.33,
+            "quality_score": 7.33,
+            "sticker_average_score": 7.02,
+            "status": "PASS"
+        }
+    },
+    {
+        "file_id": "animal_7.png",
+        "metrics": {
+            "content_score": 9.6,
+            "style_score": 1.0,
+            "quality_score": 6.0,
+            "sticker_average_score": 5.8,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_8.png",
+        "metrics": {
+            "content_score": 9.0,
+            "style_score": 1.0,
+            "quality_score": 6.67,
+            "sticker_average_score": 5.57,
+            "status": "REGENERATE"
+        }
+    },
+    {
+        "file_id": "animal_9.png",
+        "metrics": {
+            "content_score": 9.67,
+            "style_score": 1.0,
+            "quality_score": 4.0,
+            "sticker_average_score": 5.64,
+            "status": "REGENERATE"
+        }
+    }
+]
