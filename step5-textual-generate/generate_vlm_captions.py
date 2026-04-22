@@ -10,7 +10,7 @@ import json
 from pathlib import Path
 
 # ====================== Config ======================
-POE_API_KEY = "sk-poe-dItPPGjJPTNXWa4fznXgHQxh7eIx4dbxfs0eqp9gO_8"
+POE_API_KEY = "sk-poe-Ndtz5ClVIigLwa_QuflL96Cp0RXPAQJVNtJpgxWzyfo"
 POE_URL = "https://api.poe.com/v1/chat/completions"
 VLM_MODEL = "gpt-4o-mini"
 
@@ -19,9 +19,13 @@ VLM_SYSTEM_PROMPT = (
     "You are a sticker caption writer. "
     "Given a sticker image of an animal, output ONLY a two-word caption: one adjective + one noun. "
     "The adjective should describe the animal's mood, personality, or appearance in the image. "
-    "The noun should be the animal type or a fun nickname. "
-    "Good examples: 'Sleepy Kitty', 'Brave Bear', 'Chill Penguin', 'Sassy Cat', "
-    "'Cozy Panda', 'Loyal Pup', 'Gentle Deer', 'Sneaky Fox', 'Grumpy Turtle'. "
+    "The noun should be the animal type or a fun creative nickname. "
+    "IMPORTANT: Use diverse nouns — vary between the animal name, nicknames, and playful alternatives. "
+    "For cats, rotate among: Cat, Kitty, Whiskers, Furball, Meowster, Paws, Fluffball. "
+    "For dogs, rotate among: Dog, Pup, Pupper, Buddy, Woofer, Snoot. "
+    "For other animals, use their species name OR a fun nickname. "
+    "Good examples: 'Sleepy Whiskers', 'Brave Bear', 'Chill Penguin', 'Sassy Furball', "
+    "'Cozy Panda', 'Loyal Pupper', 'Gentle Deer', 'Sneaky Fox', 'Grumpy Turtle', 'Zany Meowster'. "
     "Bad examples: 'Cute Cat' (too generic), 'Purrs & Pouts' (not adj+noun), 'Chillin Like a Penguin' (too long). "
     "Output ONLY two words: adjective + noun. Nothing else."
 )
@@ -31,7 +35,10 @@ SUPPORTED_EXTS = {".png", ".jpg", ".jpeg", ".webp"}
 # Paths
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-INPUT_DIR = PROJECT_ROOT / "sticker_results" / "flat"
+# Prefer new 4.19 version, fallback to original
+_flat_419 = PROJECT_ROOT / "sticker_results" / "flat 4.19"
+_flat_orig = PROJECT_ROOT / "sticker_results" / "flat"
+INPUT_DIR = _flat_419 if _flat_419.exists() else _flat_orig
 OUTPUT_JSON = SCRIPT_DIR / "text_captions_vlm.json"
 
 

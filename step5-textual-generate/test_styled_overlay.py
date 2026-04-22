@@ -209,7 +209,10 @@ print("=" * 55)
 for base_name, caption in caption_map.items():
     for style in ["flat", "cartoon", "watercolor"]:
         styled_name = f"{style}_{base_name}"
-        img_path = STICKER_DIR / style / styled_name
+        # Prefer 4.19 version, fallback to original
+        img_path = STICKER_DIR / f"{style} 4.19" / styled_name
+        if not img_path.exists():
+            img_path = STICKER_DIR / style / styled_name
 
         if not img_path.exists():
             print(f"  Skip: {styled_name}")
