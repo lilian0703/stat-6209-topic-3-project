@@ -10,6 +10,10 @@ step5-textual-generate/styled_test_output/
 step5-textual-generate/style_comparison/
 step5-textual-generate/vlm_test_output/
 
+# PPT and report materials (local use only)
+step5-textual-generate/ppt_materials/
+step5-textual-generate/report_figures/
+
 # Temp
 *.tmp
 git_out.txt
